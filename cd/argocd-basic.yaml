@@ -1,0 +1,8 @@
+apiVersion: argoproj.io/v1beta1
+kind: Argocd
+metadata:
+  name: example-argocd
+  namespace: argocd
+  labels:
+    example: basic
+spec: {}
